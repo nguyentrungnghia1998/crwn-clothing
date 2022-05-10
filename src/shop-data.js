@@ -236,4 +236,8 @@ const SHOP_DATA = [
   },
 ];
 
+<<<<<<< HEAD
 export default SHOP_DATA
+=======
+export default SHOP_DATA;
+>>>>>>> 2f16e5b390155682bc1f79e8fccb62717b4a7e5e

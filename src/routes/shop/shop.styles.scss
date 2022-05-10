@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 .product-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
     row-gap: 50px;
 }
+=======
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 50px;
+}
+>>>>>>> 2f16e5b390155682bc1f79e8fccb62717b4a7e5e
