@@ -54,7 +54,9 @@ const Navigation = () => {
               SIGN IN
             </NavLink>
           )}
+          <CartIcon/>
         </NavLinks>
+        {isCardOpen && <CartDropdown/>}
       </NavigationContainer>
       <Outlet/>
     </Fragment>)
