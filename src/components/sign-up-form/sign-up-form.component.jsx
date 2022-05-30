@@ -48,7 +48,7 @@ const SignUpForm = () => {
     const handleChange = (event) => {
         const {name, value} = event.target;
         setFormFields({...formFields, [name]: value})
-        console.log(event);
+        // console.log(event);
     }
     return (
         <div className="sign-up-container">
