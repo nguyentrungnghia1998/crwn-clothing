@@ -5,12 +5,15 @@ import {CartDropdownContainer, EmptyMessage, CartItems} from './cart-dropdown.st
 import { useContext } from 'react'
 import { CardContext } from '../../contexts/card.context'
 
+import { CategoriesContext } from '../../contexts/categories.context'
+
 
 
 const CartDropdown = () => {
 
     const navigation = useNavigate()
-
+    const {categoriesMap} = useContext(CategoriesContext)
+    console.log(categoriesMap)
     const gotoCheckout = () => navigation('checkout');
     const {cartItems} = useContext(CardContext);
     return (

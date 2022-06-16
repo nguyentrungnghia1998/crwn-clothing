@@ -7,12 +7,15 @@ import { Route, Routes } from 'react-router-dom';
 import './shop.styles.scss'
 import Category from '../category/category.component';
 import CategoryPreview from '../categories-preview/categories-preview.component';
+// import { CategoriesProvider } from '../../contexts/categories.context';
 const Shop = () => {
     return (
+        // <CategoriesProvider>
         <Routes>
             <Route index element={<CategoryPreview />} />
             <Route path=':category' element={<Category/>} />
         </Routes>
+        // </CategoriesProvider>
       )
     }
 
